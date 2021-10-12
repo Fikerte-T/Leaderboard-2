@@ -1,0 +1,51 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper,
+.title-container {
+  display: flex;
+}
+
+.wrapper {
+  margin: 40px;
+}
+
+.container {
+  width: 45%;
+  position: relative;
+}
+
+table {
+  border: 2px solid #000;
+  width: 80%;
+  margin-top: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form * {
+  width: 50%;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.refresh {
+  margin-left: 40px;
+  width: 60px;
+}
+
+.submit {
+  position: absolute;
+  right: 50%;
+  top: 100%;
+  width: 60px;
+}
