@@ -15,35 +15,21 @@
                 <button class="refresh" type="button">Refresh</button>
             </div>
             <div>
-                <table>
-                    <tr>
-                        <td> Name:</td>
-                        <td> 100</td>
-                    </tr>
-                    <tr>
-                        <td> Name:</td>
-                        <td> 20</td>
-                    </tr>
-                    <tr>
-                        <td> Name:</td>
-                        <td> 50</td>
-                    </tr>
-                    <tr>
-                        <td> Name:</td>
-                        <td> 70</td>
-                    </tr>
+                <table class="table">
+                  
                 </table>
             </div>
         </div>
         <div class="container">
             <h2>Add your score</h2>
-            <form action="#">
-                <input type="text" placeholder="Your name" name="name">
-                <input type="text" name="score" placeholder="Your score">
+            <!-- <form action=""> -->
+            <div class="form-container">
+                <input type="text" placeholder="Your name" name="name" class="userName" required >
+                <input type="text" name="score" placeholder="Your score" class="score" required>
                 <button  class="submit" type="submit">Submit</button>
-            </form>
+            </div>
+            <!-- </form> -->
         </div>
     </div>
-    <script src="main.js"></script>
 </body>
 </html>

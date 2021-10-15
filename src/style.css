@@ -10,6 +10,7 @@ body * {
 
 .wrapper {
   margin: 40px;
+  justify-content: space-between;
 }
 
 .container {
@@ -27,12 +28,13 @@ tr:nth-child(even) {
   background-color: #ddd;
 }
 
-form {
+.form-container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
-form * {
+.form-container * {
   width: 50%;
   margin-top: 20px;
   height: 25px;
