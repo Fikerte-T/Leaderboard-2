@@ -1,11 +1,35 @@
 body * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: rgb(145,13,156);
+  background: linear-gradient(90deg, rgba(145,13,156,1) 0%, rgba(8,97,163,1) 0%, rgba(80,14,110,1) 100%);
+}
+
+h1 {
+  color: #fff;
+}
+
+.body-wrapper {
+  margin: 40px;
+  /* border: 1px solid red; */
+  /* background: #ddd */
+  /* opacity: 0.8; */
+  /* height: 100vh; */
+ 
 }
 
 .wrapper,
-.title-container {
+.title-container,
+tr {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .wrapper {
@@ -15,39 +39,111 @@ body * {
 
 .container {
   width: 45%;
-  position: relative;
+  background: #fff;
+
+}
+
+.container-left {
+  border-radius: 5px;
+  overflow-y: scroll;
+  height: 750px;
+  padding-top: 30px;
+}
+
+.container-right {
+  /* position: relative; */
+  text-align: center;
+  height: 90%;
+  border-radius: 5px;
+  padding: 30px;
+
+  /* align-items: center;
+  flex-direction: column; */
 }
 
 table {
-  border: 2px solid #000;
-  width: 80%;
+  /* border: 2px solid #000; */
+  border-collapse: collapse;
+  width: 100%;
   margin-top: 20px;
+
+}
+
+tr {
+  /* display: block;
+  overflow: auto; */
+  border-bottom: 1px solid #ddd;
+}
+
+tr:first-of-type {
+  border-top: 2px solid #028db4;
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+td {
+  display: block;
+  width: 50%;
+  font-size: 15px;
+  padding: 5px 25px;
 }
 
 .form-container {
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
+  align-items: center;
 }
 
 .form-container * {
-  width: 50%;
+  width: 70%;
   margin-top: 20px;
-  height: 25px;
+  height: 35px;
+  border: 1px solid #c1c3c7e1;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: 2px solid #028db4;
+  border: none;
+}
+
+.btn {
+  /* background: #08b9dd; */
+  background: #028db4;
+  
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  height: 35px;
 }
 
 .refresh {
   margin-left: 40px;
-  width: 60px;
+  font-size: 15px;
+  width: 100px;
+
+  /* width: 60px; */
 }
 
 .submit {
-  position: absolute;
-  right: 50%;
-  top: 100%;
-  width: 60px;
+ 
+  /* position: absolute;
+  right: 25%;
+  top: 100%; */
+  /* width: 100px; */
+}
+
+
+
+.btn:hover {
+  background: #16b6e2;
 }
