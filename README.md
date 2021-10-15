@@ -2,12 +2,14 @@
 # Leaderboard
 
 >In this project a leaderborad list app is setup with webpack, Gitflow and ES6 features. Users can submit their scores to the external Leaderboard API and all users' data can be received from the API and to be displayed on the website.
-![Screenshot](/app-screenshot)
+
+
+![Screenshot](https://github.com/Fikerte-T/Leaderboard-2/blob/add-styles/app-screenshot.png)
 
 
 ## Live Demo
 
- [Live Demo](https://fikerte-t.github.io/leaderboard/dist/)
+ [Live Demo](https://fikerte-t.github.io/Leaderboard-2/dist/)
 
 ## Built With
 
