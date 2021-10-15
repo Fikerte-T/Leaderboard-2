@@ -1,7 +1,7 @@
 
 # Leaderboard
 
->In this project a leaderborad list app is setup with webpack, Gitflow and ES6 features. 
+>In this project a leaderborad list app is setup with webpack, Gitflow and ES6 features. Users can submit their scores to the external Leaderboard API and all users' data can be received from the API and to be displayed on the website.
 
 
 
@@ -16,6 +16,7 @@
 - Javascript
 - Webpack
 - Gitflow
+- Leaderboard API
 
 ## Getting Started
 
