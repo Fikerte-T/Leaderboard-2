@@ -4,10 +4,12 @@
 >In this project a leaderborad list app is setup with webpack, Gitflow and ES6 features. Users can submit their scores to the external Leaderboard API and all users' data can be received from the API and to be displayed on the website.
 
 
+![Screenshot](https://github.com/Fikerte-T/Leaderboard-2/blob/add-styles/app-screenshot.png)
+
 
 ## Live Demo
 
- [Live Demo](https://fikerte-t.github.io/leaderboard/dist/)
+ [Live Demo](https://fikerte-t.github.io/Leaderboard-2/dist/)
 
 ## Built With
 
@@ -20,9 +22,22 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-[git@github.com:Fikerte-T/leaderboard.git](git@github.com:Fikerte-T/leaderboard.git)
-
+1. To get a local copy up and running follow these simple example steps.
+```bash
+git@github.com:Fikerte-T/leaderboard.git
+```
+2. To install npm, run the following command in you CMD
+```bash
+install npm
+```
+3. To build the website, run the following command in your terminal
+```bash
+npm run build
+```
+or to watch the changes
+```bash
+ npm start
+```
 ## Authors
 
 👤 **Fikerte Tesfaye**
