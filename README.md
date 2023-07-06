@@ -28,7 +28,7 @@ git@github.com:Fikerte-T/leaderboard.git
 ```
 2. To install npm, run the following command in you CMD
 ```bash
-install npm
+npm install
 ```
 3. To build the website, run the following command in your terminal
 ```bash
@@ -42,9 +42,9 @@ or to watch the changes
 
 👤 **Fikerte Tesfaye**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Fikerte-T](https://github.com/Fikerte-T)
+- Twitter: [@tofikertesfaye](https://twitter.com/tofikertesfaye)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fikerte-tesfaye-a68337216/)
 
 ## 🤝 Contributing
 
